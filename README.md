@@ -1,12 +1,12 @@
 # Webview Audio Macro
 
-This Webex Device macro monitors when WebViews are visible on your Webex Device and ensures they output Audio to the Loudspeaker Output Group of your Device.
+This example Webex Device macro monitors when WebViews are visible on your Webex Device and ensures they output Audio to the Loudspeaker Output Group of your Device.
 
 ## Overview
 
-Webex Rooms systems which are configured using Audio Console feature may not always be configured correctly or may get changed accidently that so new WebViews which open are correctly sending their audio out to the Loudspeaker Output group. This causes situations where WebRTC meetings or opened WebViews don't output sound into the room.
+Webex Rooms systems which are configured using Audio Console feature may not always be configured correctly or may get changed accidently causing WebViews not to output sound to the Loudspeaker Output groupa. This causes situations where WebRTC meetings or other WebViews don't output sound into the room.
 
-This helper macro monitors when WebViews are opened and checks the current audio configuration of your Webex Room devices and then make corrective changes to ensure the WebView is outputting sound.
+This example macro monitors when WebViews are opened and checks the current audio configuration of your Webex Room device and then make corrective changes to ensure the WebView is outputting sound to the Loudspeaker.
 
 Here are the actions the macro will take when it starts or when a new WebView becomes visible:
 
